@@ -1,0 +1,133 @@
+.wd-bg-page {
+    background: black;
+}
+
+.wd-content {
+    margin-left: 16px;
+}
+
+.wd-border-solid {
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.wd-border-solid-no-top {
+    border-width: 0px 1px 1px 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.wd-bookmarks-title {
+    margin: 1px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-bookmarks-username {
+    color: rgba(211, 211, 211, 0.61);
+    font-size: 13px;
+}
+
+.wd-padding {
+    padding: 12px 16px 12px 16px;
+}
+
+.wd-bookmark-post-left{
+    float: left;
+}
+
+.wd-bookmarks-icon {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.wd-bookmark-post-right {
+    padding-left: 12px;
+    float: right;
+}
+
+.wd-bookmarks-post-display-name {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-bookmarks-post-username {
+    color: rgba(211, 211, 211, 0.61);
+    font-size: 15px;
+}
+
+.wd-bookmarks-post-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+}
+
+.wd-bookmarks-post-link {
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.wd-bookmarks-post-link-img {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    width: 504px;
+    height: 264px;
+}
+
+
+.wd-bookmarks-post-link-title {
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.wd-bookmarks-post-link-text {
+    color: rgba(211, 211, 211, 0.61);
+    font-size: 15px;
+    padding: 0px 12px 12px 12px;
+    margin-bottom: 12px;
+}
+
+.wd-bookmarks-actions {
+    margin-top: 12px;
+}
+
+.wd-bookmarks-action-numbers {
+    color: lightgrey;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.selected {
+    color: red;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.wd-bookmarks-actions {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-bookmarks-actions li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
