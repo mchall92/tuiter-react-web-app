@@ -18,6 +18,14 @@
     border-style: solid;
 }
 
+.wd-outer-top-box {
+    width: 570px;
+}
+
+.wd-outer-lower-box {
+    width: 570px;
+}
+
 .wd-bookmarks-title {
     margin: 1px;
     color: white;
