@@ -1035,7 +1035,7 @@ readers do not read off random characters that represent icons */
 .fa-coffee:before {
   content: "\f0f4"; }
 
-.fa-cog:before {
+.wd-fa-cog:before {
   content: "\f013"; }
 
 .fa-cogs:before {
