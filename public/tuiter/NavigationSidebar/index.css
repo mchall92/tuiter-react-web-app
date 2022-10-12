@@ -1,7 +1,7 @@
 .wd-search-tuiter {
     bottom: 11px;
     left: 12px;
-    color: #8c8b8b;
+    color: #b0aeae;
 }
 
 .wd-nav-tabs {
@@ -20,7 +20,7 @@
 }
 
 .wd-fa-cog {
-    color: rgb(29,161,242);
+    color: ghostwhite;
 }
 
 .wd-bg-page {
@@ -29,7 +29,7 @@
 
 
 .list-group-item {
-    background-color: #252424;
+    background-color: black;
     color: ghostwhite;
     margin: 4px;
     font-size: 18px;
@@ -40,7 +40,7 @@
 }
 
 .list-group .active {
-    background-color: rgb(29,161,242) !important;
+    background-color: black !important;
     border-width: 0 !important;
     font-weight: 900;
 }
@@ -51,6 +51,9 @@
 }
 
 .wd-main-top {
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+    border-color: #494848;
     padding: 0 7px 0 7px;
 }
 
@@ -71,15 +74,18 @@
     color: lightgray !important;
 }
 
-.nav-item a:link {
-    color: white !important;
-}
-
 .wd-main-mid {
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #494848;
-    margin-top: -3px;
+    margin-top: -4px;
+}
+
+.wd-main-btm {
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+    border-color: #494848;
+    border-radius: 0;
 }
 
 .wd-small-font {
@@ -100,22 +106,6 @@
 
 .wd-left-item {
     margin: 0;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 1px;
     font-size: 20px;
-}
-
-.wd-button {
-    background-color: rgb(29,161,242);
-}
-
-.wd-search-bar {
-    background-color: ghostwhite;
-}
-
-.wd-main-top ::placeholder {
-    color: #8c8b8b;
-}
-
-.wd-light-grey {
-    color: #918f8f !important;
 }
