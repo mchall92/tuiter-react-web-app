@@ -28,7 +28,14 @@
 }
 
 
-.list-group-item {
+.wd-follow .list-group-item {
+    background-color: #252424;
+    color: ghostwhite;
+    margin: 4px;
+    font-size: 18px;
+}
+
+.wd-main-btm .list-group-item {
     background-color: #252424;
     color: ghostwhite;
     margin: 4px;
@@ -39,11 +46,6 @@
     min-width: max-content;
 }
 
-.list-group .active {
-    background-color: rgb(29,161,242) !important;
-    border-width: 0 !important;
-    font-weight: 900;
-}
 
 .form-control {
     background-color: #252424;
@@ -96,12 +98,6 @@
 
 .wd-ml-font {
     font-size: 15px;
-}
-
-.wd-left-item {
-    margin: 0;
-    padding: 10px 0 10px 10px;
-    font-size: 20px;
 }
 
 .wd-button {

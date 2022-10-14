@@ -1,7 +1,7 @@
 import PostSummaryItem from "./PostSummaryItem.js";
 import posts from "./posts.js"
 
-const WhoToFollowList = () => {
+const PostSummaryList = () => {
     return(`
     <ul class="list-group wd-main-btm">
         ${
@@ -13,7 +13,4 @@ const WhoToFollowList = () => {
  `);
 }
 
-
-
-
-export default WhoToFollowList;
+export default PostSummaryList;

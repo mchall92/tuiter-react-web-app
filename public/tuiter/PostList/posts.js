@@ -1,0 +1,28 @@
+export default [
+    {
+        userImage: '../../images/maple-leaves.jpg',
+        userName: 'Maply Story',
+        userAccount: 'maplestory',
+        time: 'Yesterday',
+        image: '../../images/seal.jpg',
+        title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
+        innerContent: 'Sed vel sollicitudin elit. Vestibulum sed purus ut sapien feugiat ultricies a vel ipsum. Proin consequat varius augue, et blandit massa luctus commodo. ',
+        website: 'seal.com',
+        reply: '20',
+        retuit: '102',
+        like: '1k',
+    },
+    {
+        userImage: '../../images/cat.png',
+        userName: 'Kater',
+        userAccount: 'derkater',
+        time: 'Sep 20',
+        image: '../../images/animal1.jpg',
+        title: '',
+        innerContent: '',
+        website: '',
+        reply: '1.2k',
+        retuit: '3k',
+        like: '5k',
+    },
+];

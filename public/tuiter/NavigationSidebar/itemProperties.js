@@ -1,12 +1,12 @@
 export default [
-    {   link: "../home.html",
+    {   link: "../HomeScreen/index.html",
         refClass: "list-group-item list-group-item-action wd-left-item",
         iconClass: "fa-sharp fa-solid fa-house-chimney",
         titleClass: "d-none d-xl-inline d-xxl-inline ms-3",
         linkTitle: "Home"
     },
-    {   link: "index.html",
-        refClass: "list-group-item list-group-item-action active wd-left-item",
+    {   link: "../ExploreScreen/index.html",
+        refClass: "list-group-item list-group-item-action wd-left-item",
         iconClass: "fa-solid fa-hashtag",
         titleClass: "d-none d-xl-inline d-xxl-inline ms-3",
         linkTitle: "Explore"

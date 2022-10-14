@@ -1,0 +1,30 @@
+.wd-border-solid {
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+
+.wd-font-size-medium {
+    font-size: 1.9ex;
+}
+
+.wd-font-size-small {
+    font-size: 1.7ex;
+}
+
+.wd-font-color-grey {
+    color: #777575;
+}
+
+.wd-font-color-white {
+    color: #dedcdc;
+}
+
+.wd-background-black {
+    background-color: black !important;
+}
+
+.wd-border-color {
+    border-width: 1ex;
+    border-color: #282828 !important;
+}
