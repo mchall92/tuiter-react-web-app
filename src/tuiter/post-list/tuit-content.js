@@ -20,7 +20,7 @@ const TuitContent = (
     if (post.isRetuit) {
         return(
             <div className="rounded-4 wd-border-solid p-3 pt-2">
-                    <img width={40} className="rounded-circle p-2" src={`/images/${post.retuitPost.userImage}`}/>
+                    <img alt="text" width={40} className="rounded-circle p-2" src={`/images/${post.retuitPost.userImage}`}/>
                     <span className="wd-font-size-medium wd-font-color-black wd-bold">{post.retuitPost.userName}</span>
                     <i className="bi bi-patch-check-fill text-primary ms-1 me-1"/>
                     <span className="wd-font-size-medium wd-font-color-grey">@{post.retuitPost.userAccount}</span>
@@ -35,7 +35,7 @@ const TuitContent = (
         if (post.title || post.innerContent || post.website) {
             return (
                 <div className="rounded-4 wd-border-solid">
-                    <img className="rounded-top border-bottom wd-border-color wd-full-image" src={`/images/${post.image}`}/>
+                    <img alt="text" className="rounded-top border-bottom wd-border-color wd-full-image" src={`/images/${post.image}`}/>
                         <div className="m-3">
                             <div className="mb-1">
                                 <span className="wd-font-size-medium wd-font-color-white">{post.title}</span>
@@ -49,7 +49,7 @@ const TuitContent = (
         } else {
             return(
                 <div className="rounded-4 wd-border-solid">
-                    <img width={100} className="rounded-top border-bottom wd-border-color" src={`/images/${post.image}`}/>
+                    <img alt="text" width={100} className="rounded-top border-bottom wd-border-color" src={`/images/${post.image}`}/>
                 </div>
             );
         }

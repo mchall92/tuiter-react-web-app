@@ -43,7 +43,7 @@ const PostItem = (
                 </div>
 
                 <div className="col-2 justify-content-center pe-0">
-                    <img width={70} className="rounded-circle p-2" src={`/images/${post.userImage}`}/>
+                    <img alt="text" width={70} className="rounded-circle p-2" src={`/images/${post.userImage}`}/>
                 </div>
                 <div className="col-10 ps-0">
                     <div className="row">
