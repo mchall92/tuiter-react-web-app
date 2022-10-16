@@ -1,0 +1,37 @@
+.wd-border-solid {
+    border-width: 1px;
+    border-color: rgb(213, 211, 211);
+    border-style: solid;
+}
+
+.wd-font-color-black {
+    color: black;
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-font-color-grey {
+    color: grey;
+}
+
+.wd-font-size-medium {
+    font-size: 1em;
+}
+
+.wd-font-size-medium-small {
+    font-size: 0.9em;
+}
+
+.wd-font-size-small {
+    font-size: 0.8em;
+}
+
+.wd-dark-grey {
+    color: #626262;
+}
+
+.wd-full-image {
+    width: 100%;
+}
