@@ -1,7 +1,7 @@
 import React from "react";
 import {useSelector} from "react-redux";
 import "./index.css";
-import EditProfile from "./EditProfileComponent";
+import EditProfile from "./EditProfileComponent.js";
 
 const EditProfileComponent = () => {
     const profile = useSelector(state => state.profile)

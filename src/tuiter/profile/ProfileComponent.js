@@ -21,7 +21,7 @@ const Profile = (
         <>
             <div className="row m-1">
                 <div className="col-1 d-flex">
-                    <a href="/home" className="wd-v-center">
+                    <a href="/tuiter/home" className="wd-v-center">
                         <i className="bi bi-arrow-left wd-left-icon-size my-auto wd-icon-bold"/>
                     </a>
                 </div>
