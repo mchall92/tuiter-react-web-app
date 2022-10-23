@@ -22,7 +22,7 @@ const EditProfile = () => {
             location: location,
             dateOfBirth: day + "/" + month + "/" + year,
         }));
-        navigate("/tuiter/profile");
+        navigate("../profile");
     }
 
     const dob = profile.dateOfBirth.split("/");
@@ -45,7 +45,7 @@ const EditProfile = () => {
         <>
             <div className="row m-2">
                 <div className="col-1 d-flex">
-                    <a href="/tuiter/profile" className="wd-v-center">
+                    <a href="../profile" className="wd-v-center">
                         <i className="bi bi-x-lg wd-left-icon-size my-auto wd-icon-bold"/>
                     </a>
                 </div>

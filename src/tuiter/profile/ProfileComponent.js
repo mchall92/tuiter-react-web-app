@@ -21,7 +21,7 @@ const Profile = (
         <>
             <div className="row m-1">
                 <div className="col-1 d-flex">
-                    <a href="/tuiter/home" className="wd-v-center">
+                    <a href="../home" className="wd-v-center">
                         <i className="bi bi-arrow-left wd-left-icon-size my-auto wd-icon-bold"/>
                     </a>
                 </div>
@@ -44,7 +44,7 @@ const Profile = (
                 </div>
                 <div className="col-4">
                     <div className="d-flex flex-row-reverse">
-                        <a href="/tuiter/edit-profile">
+                        <a href="../edit-profile">
                             <button className="btn wd-medium-font rounded-pill wd-edit-profile-button">
                                 Edit Profile
                             </button>
