@@ -44,7 +44,7 @@ const Profile = (
                 </div>
                 <div className="col-4">
                     <div className="d-flex flex-row-reverse">
-                        <a href="../edit-profile">
+                        <a href="/tuiter/edit-profile">
                             <button className="btn wd-medium-font rounded-pill wd-edit-profile-button">
                                 Edit Profile
                             </button>
