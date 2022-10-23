@@ -1,0 +1,61 @@
+.wd-left-icon-size {
+    font-size: 1.4em;
+}
+
+.wd-font-bolder {
+    font-weight: bold;
+}
+
+.wd-large-font-size {
+    font-size: 1.5em;
+}
+
+.wd-small-font-size {
+    font-size: 0.9em;
+}
+
+.wd-medium-font-size {
+    font-size: 1.1em;
+}
+
+.wd-edit-profile-button {
+    font-weight: bold;
+    border: solid lightgrey;
+}
+
+.wd-edit-profile-button:hover {
+    color: white;
+    background-color: rgb(29,161,242);
+}
+
+.wd-profile-image {
+    position:relative;
+    z-index:2 !important;
+    background-color: white;
+    margin-top: -5em;
+}
+
+.wd-font-grey {
+    color: #7a7979;
+}
+
+.wd-neg-margin {
+    margin-top: -0.5em;
+}
+
+.wd-icon-bold {
+    -webkit-text-stroke: 1px black;
+}
+
+.wd-font-bold {
+    font-weight: 600;
+}
+
+.wd-font-small-bold {
+    font-weight: 500;
+}
+
+.wd-v-center {
+    display: flex;
+    align-items: center;
+}

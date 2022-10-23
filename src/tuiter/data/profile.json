@@ -1,0 +1,14 @@
+{
+  "firstName": "Noah",
+  "lastName": "Hall",
+  "handle": "@nhall",
+  "profilePicture": "nodejs.png",
+  "bannerPicture": "seal.jpg",
+  "bio": "Praesent laoreet purus tellus, sit amet pellentesque elit pulvinar vitae. Donec tempus commodo aliquet. Vestibulum imperdiet erat a orci pulvinar imperdiet.",
+  "location": "Frankfurt am Main, Deutschland",
+  "dateOfBirth": "2/8/2015",
+  "dateJoined": "4/2019",
+  "followingCount": 340,
+  "followersCount": 223,
+  "twuitCount": 507
+}

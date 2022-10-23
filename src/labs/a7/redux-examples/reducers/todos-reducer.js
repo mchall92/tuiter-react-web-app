@@ -31,7 +31,6 @@ const todosSlice = createSlice({
         todoDoneToggle(state, action) {
             state[action.payload].done = !state[action.payload].done
         }
-
     }
 
 });

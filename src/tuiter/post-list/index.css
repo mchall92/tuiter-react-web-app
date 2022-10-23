@@ -35,3 +35,7 @@
 .wd-full-image {
     width: 100%;
 }
+
+.wd-red {
+    color: rgba(250, 60, 60, 0.94);
+}

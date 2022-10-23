@@ -1,9 +1,10 @@
 import React from "react";
-import postsArray  from './posts.json';
+import {useSelector} from "react-redux";
 import PostItem from "./post-item";
 import "./index.css";
 
 const PostList = () => {
+    const postsArray = useSelector(state => state.postItem)
     return(
         <ul className="list-group">
             {
