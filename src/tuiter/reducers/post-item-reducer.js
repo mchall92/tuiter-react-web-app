@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import postItem from '../data/post-item.json';
+import { findTuitsThunk, deleteTuitThunk, createTuitThunk, updateTuitThunk } from "../../services/tuits-thunks";
 
 const currentUser = {
     "userName": "MASA",
@@ -17,9 +17,50 @@ const templateTuit = {
     "likes": 0,
 }
 
+const initialState = {
+    tuits: [],
+    loading: false
+}
+
 const postItemSlice = createSlice({
-    name: 'postItem',
-    initialState: postItem,
+    name: 'tuits',
+    initialState,
+    extraReducers: {
+        [findTuitsThunk.pending]:
+            (state) => {
+                state.loading = true
+                state.tuits = []
+            },
+        [findTuitsThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                state.tuits = payload
+            },
+        [findTuitsThunk.rejected]:
+            (state) => {
+                state.loading = false
+            },
+        [deleteTuitThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                state.tuits = state.tuits.filter(t => t._id !== payload)
+            },
+        [createTuitThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                state.tuits.push(payload)
+            },
+        [updateTuitThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                const tuitNdx = state.tuits
+                    .findIndex((t) => t._id === payload._id)
+                state.tuits[tuitNdx] = {
+                    ...state.tuits[tuitNdx],
+                    ...payload
+                }
+            },
+    },
 
     reducers: {
         deleteTuit(state, action) {
@@ -38,5 +79,5 @@ const postItemSlice = createSlice({
 
 });
 
-export const {createTuit, deleteTuit} = postItemSlice.actions;
+export const { createTuit, deleteTuit } = postItemSlice.actions;
 export default postItemSlice.reducer;

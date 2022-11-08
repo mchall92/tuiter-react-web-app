@@ -1,11 +1,22 @@
 import React from "react";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {useState} from "react";
 import {updateProfile} from "../reducers/profile-reducer";
 import {useNavigate} from 'react-router-dom';
 
-const EditProfile = () => {
-    const profile = useSelector(state => state.profile)
+const EditProfile = (
+    {
+        profile = {
+            "firstName": 'firstName',
+            "lastName": 'lastName',
+            "profilePicture": 'nodejs.png',
+            "bannerPicture": 'seal.jpg',
+            "bio": 'Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.',
+            "location": 'Boston, MA',
+            "dateOfBirth": 'DOB',
+        }
+    }
+) => {
     const dispatch = useDispatch();
     const [firstName, setFirstName] = useState(profile.firstName);
     const [lastName, setLastName] = useState(profile.lastName);
