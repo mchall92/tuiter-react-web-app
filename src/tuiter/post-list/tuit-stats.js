@@ -14,6 +14,7 @@ const TuitStats = (
     }
 ) => {
     const dispatch = useDispatch();
+
     return (
         <>
             <div className="col-3 wd-font-size-medium-small wd-font-color-grey">
