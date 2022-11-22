@@ -6,7 +6,7 @@ export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit,
         {
             headers: {
-                "Access-Control-Allow-Origin": "*"
+                "Access-Control-Allow-Origin": true
             }
         })
     return response.data;
