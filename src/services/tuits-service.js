@@ -3,8 +3,12 @@ const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`;
 
 export const createTuit = async (tuit) => {
-    console.log(TUITS_API)
-    const response = await axios.post(TUITS_API, tuit)
+    const response = await axios.post(TUITS_API, tuit,
+        {
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        })
     return response.data;
 }
 
