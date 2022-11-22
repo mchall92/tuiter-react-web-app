@@ -10,7 +10,7 @@ export const createTuit = async (tuit) => {
                     "Access-Control-Allow-Origin": "*"
                 }
             },
-            withCredentials: false,
+            withCredentials: true,
         })
     return response.data;
 }
