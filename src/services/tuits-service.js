@@ -9,8 +9,7 @@ export const createTuit = async (tuit) => {
                 post: {
                     "Access-Control-Allow-Origin": "*"
                 }
-            },
-            withCredentials: true,
+            }
         })
     return response.data;
 }
