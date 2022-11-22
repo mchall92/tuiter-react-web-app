@@ -7,7 +7,7 @@ export const createTuit = async (tuit) => {
         {
             headers: {
                 post: {
-                    "Access-Control-Allow-Origin": true
+                    "Access-Control-Allow-Origin": "*"
                 }
             }
         })
